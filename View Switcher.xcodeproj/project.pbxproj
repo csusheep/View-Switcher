@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A4385C21473FECF00D7A11F /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4385C11473FECF00D7A11F /* RedViewController.m */; };
 		5ABA6CF8146F9F1C000F80A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABA6CF7146F9F1C000F80A2 /* UIKit.framework */; };
 		5ABA6CFA146F9F1C000F80A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABA6CF9146F9F1C000F80A2 /* Foundation.framework */; };
 		5ABA6CFC146F9F1C000F80A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABA6CFB146F9F1C000F80A2 /* CoreGraphics.framework */; };
@@ -21,6 +22,11 @@
 		5ABA6D1E146F9F1D000F80A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5ABA6D1C146F9F1D000F80A2 /* InfoPlist.strings */; };
 		5ABA6D20146F9F1D000F80A2 /* View_SwitcherTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5ABA6D1F146F9F1D000F80A2 /* View_SwitcherTests.h */; };
 		5ABA6D22146F9F1D000F80A2 /* View_SwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA6D21146F9F1D000F80A2 /* View_SwitcherTests.m */; };
+		5ABA6D30146FA043000F80A2 /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA6D2F146FA043000F80A2 /* SwitchViewController.m */; };
+		5ABA6D33146FA078000F80A2 /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA6D32146FA078000F80A2 /* YellowViewController.m */; };
+		5ABA6D36146FA0A8000F80A2 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABA6D35146FA0A8000F80A2 /* BlueViewController.m */; };
+		5ABA6D38146FA180000F80A2 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ABA6D37146FA180000F80A2 /* BlueView.xib */; };
+		5ABA6D3A146FA194000F80A2 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ABA6D39146FA194000F80A2 /* YellowView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,23 +40,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A4385C01473FECF00D7A11F /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		5A4385C11473FECF00D7A11F /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
 		5ABA6CF3146F9F1C000F80A2 /* View Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "View Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABA6CF7146F9F1C000F80A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5ABA6CF9146F9F1C000F80A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5ABA6CFB146F9F1C000F80A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5ABA6CFF146F9F1C000F80A2 /* View Switcher-Info.plist */ = {isa = PBXFileReference; path = "View Switcher-Info.plist"; sourceTree = "<group>"; };
+		5ABA6CFF146F9F1C000F80A2 /* View Switcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View Switcher-Info.plist"; sourceTree = "<group>"; };
 		5ABA6D01146F9F1C000F80A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5ABA6D03146F9F1C000F80A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5ABA6D05146F9F1C000F80A2 /* View Switcher-Prefix.pch */ = {isa = PBXFileReference; path = "View Switcher-Prefix.pch"; sourceTree = "<group>"; };
-		5ABA6D06146F9F1C000F80A2 /* View_SwitcherAppDelegate.h */ = {isa = PBXFileReference; path = View_SwitcherAppDelegate.h; sourceTree = "<group>"; };
+		5ABA6D05146F9F1C000F80A2 /* View Switcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View Switcher-Prefix.pch"; sourceTree = "<group>"; };
+		5ABA6D06146F9F1C000F80A2 /* View_SwitcherAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View_SwitcherAppDelegate.h; sourceTree = "<group>"; };
 		5ABA6D07146F9F1C000F80A2 /* View_SwitcherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_SwitcherAppDelegate.m; sourceTree = "<group>"; };
 		5ABA6D0A146F9F1C000F80A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		5ABA6D11146F9F1C000F80A2 /* View SwitcherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "View SwitcherTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABA6D12146F9F1C000F80A2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5ABA6D1B146F9F1D000F80A2 /* View SwitcherTests-Info.plist */ = {isa = PBXFileReference; path = "View SwitcherTests-Info.plist"; sourceTree = "<group>"; };
+		5ABA6D1B146F9F1D000F80A2 /* View SwitcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View SwitcherTests-Info.plist"; sourceTree = "<group>"; };
 		5ABA6D1D146F9F1D000F80A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5ABA6D1F146F9F1D000F80A2 /* View_SwitcherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View_SwitcherTests.h; sourceTree = "<group>"; };
 		5ABA6D21146F9F1D000F80A2 /* View_SwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_SwitcherTests.m; sourceTree = "<group>"; };
+		5ABA6D2E146FA043000F80A2 /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
+		5ABA6D2F146FA043000F80A2 /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
+		5ABA6D31146FA078000F80A2 /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
+		5ABA6D32146FA078000F80A2 /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
+		5ABA6D34146FA0A8000F80A2 /* BlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueViewController.h; sourceTree = "<group>"; };
+		5ABA6D35146FA0A8000F80A2 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
+		5ABA6D37146FA180000F80A2 /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
+		5ABA6D39146FA194000F80A2 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +127,20 @@
 		5ABA6CFD146F9F1C000F80A2 /* View Switcher */ = {
 			isa = PBXGroup;
 			children = (
+				5ABA6D2E146FA043000F80A2 /* SwitchViewController.h */,
+				5ABA6D2F146FA043000F80A2 /* SwitchViewController.m */,
+				5ABA6D31146FA078000F80A2 /* YellowViewController.h */,
+				5ABA6D32146FA078000F80A2 /* YellowViewController.m */,
+				5ABA6D39146FA194000F80A2 /* YellowView.xib */,
+				5ABA6D34146FA0A8000F80A2 /* BlueViewController.h */,
+				5ABA6D35146FA0A8000F80A2 /* BlueViewController.m */,
+				5ABA6D37146FA180000F80A2 /* BlueView.xib */,
 				5ABA6D06146F9F1C000F80A2 /* View_SwitcherAppDelegate.h */,
 				5ABA6D07146F9F1C000F80A2 /* View_SwitcherAppDelegate.m */,
 				5ABA6D09146F9F1C000F80A2 /* MainWindow.xib */,
 				5ABA6CFE146F9F1C000F80A2 /* Supporting Files */,
+				5A4385C01473FECF00D7A11F /* RedViewController.h */,
+				5A4385C11473FECF00D7A11F /* RedViewController.m */,
 			);
 			path = "View Switcher";
 			sourceTree = "<group>";
@@ -218,6 +244,8 @@
 			files = (
 				5ABA6D02146F9F1C000F80A2 /* InfoPlist.strings in Resources */,
 				5ABA6D0B146F9F1C000F80A2 /* MainWindow.xib in Resources */,
+				5ABA6D38146FA180000F80A2 /* BlueView.xib in Resources */,
+				5ABA6D3A146FA194000F80A2 /* YellowView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +283,10 @@
 			files = (
 				5ABA6D04146F9F1C000F80A2 /* main.m in Sources */,
 				5ABA6D08146F9F1C000F80A2 /* View_SwitcherAppDelegate.m in Sources */,
+				5ABA6D30146FA043000F80A2 /* SwitchViewController.m in Sources */,
+				5ABA6D33146FA078000F80A2 /* YellowViewController.m in Sources */,
+				5ABA6D36146FA0A8000F80A2 /* BlueViewController.m in Sources */,
+				5A4385C21473FECF00D7A11F /* RedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +454,7 @@
 				5ABA6D27146F9F1D000F80A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5ABA6D28146F9F1D000F80A2 /* Build configuration list for PBXNativeTarget "View SwitcherTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +463,7 @@
 				5ABA6D2A146F9F1D000F80A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
